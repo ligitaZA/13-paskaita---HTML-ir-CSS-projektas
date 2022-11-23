@@ -1,0 +1,45 @@
+#gallery {
+  h1 {
+    font-size: var(--font_size);
+    letter-spacing: var(--letter_space);
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 20px;
+
+    span {
+      color: var(--background);
+    }
+  }
+
+  .pictures {
+    display: flex;
+    flex-direction: column;
+    height: 160vh;
+    gap: 5px;
+    background-color: var(--background);
+
+    .img1 {
+      background-image: url('https://peakvisor.com/photo/Tibet-China-Qomolangma-National-Nature-Preserve.jpg');
+      background-size: cover;
+      height: 100%;
+    }
+
+    .img2 {
+      background-image: url('https://img.jakpost.net/c/2018/07/27/2018_07_27_49972_1532696227._large.jpg');
+      background-size: cover;
+      height: 100%;
+    }
+
+    .img3 {
+      background-image: url('https://cinainitalia.com/wp-content/uploads/2019/02/Hong-Kong-Skyline-scaled.jpg');
+      background-size: cover;
+      height: 100%;
+    }
+
+    .img4 {
+      background-image: url('https://www.nationsonline.org/gallery/Kenya/Amboseli-National-Park-Kilimanjaro.jpg');
+      background-size: cover;
+      height: 100%;
+    }
+  }
+}

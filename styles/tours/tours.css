@@ -1,0 +1,183 @@
+#featured h1 {
+  font-size: var(--font_size);
+  letter-spacing: var(--letter_space);
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 20px;
+}
+#featured span {
+  color: var(--background);
+}
+#featured .tour1 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(8, 1fr);
+  height: 500px;
+  border: 1px;
+  box-shadow: rgba(118, 124, 124, 0.5) 0 2px 5px 0;
+  margin: var(--padding_4);
+}
+#featured .tour1 .img1 {
+  background-image: url("https://peakvisor.com/photo/Tibet-China-Qomolangma-National-Nature-Preserve.jpg");
+  background-size: cover;
+  grid-area: 1/1/7/5;
+  position: relative;
+}
+#featured .tour1 .date {
+  position: absolute;
+  background-color: var(--background);
+  margin-top: 15px;
+  padding: 3px 7px;
+  color: black;
+}
+#featured .tour1 h3 {
+  grid-area: 7/1/8/3;
+  margin: 10px;
+  align-self: center;
+}
+#featured .tour1 .icon {
+  grid-area: 8/1/9/2;
+  color: var(--background);
+  margin: 15px;
+}
+#featured .tour1 .icon i {
+  margin-right: 3px;
+}
+#featured .tour1 .right {
+  grid-area: 8/4/9/5;
+}
+#featured .tour1 .right p {
+  margin: 0;
+}
+#featured .tour2 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(8, 1fr);
+  height: 500px;
+  border: 1px;
+  box-shadow: rgba(118, 124, 124, 0.5) 0 2px 5px 0;
+  margin: var(--padding_4);
+}
+#featured .tour2 .img2 {
+  background-image: url("https://img.jakpost.net/c/2018/07/27/2018_07_27_49972_1532696227._large.jpg");
+  background-size: cover;
+  grid-area: 1/1/7/5;
+  position: relative;
+}
+#featured .tour2 .date {
+  position: absolute;
+  background-color: var(--background);
+  margin-top: 15px;
+  padding: 3px 7px;
+  color: black;
+}
+#featured .tour2 h3 {
+  grid-area: 7/1/8/3;
+  margin: 10px;
+  align-self: center;
+}
+#featured .tour2 .icon {
+  grid-area: 8/1/9/3;
+  color: var(--background);
+  margin: 15px;
+}
+#featured .tour2 .icon i {
+  margin-right: 3px;
+}
+#featured .tour2 .right {
+  grid-area: 8/4/9/5;
+}
+#featured .tour2 .right p {
+  margin: 0;
+}
+#featured .tour3 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(8, 1fr);
+  height: 500px;
+  border: 1px;
+  box-shadow: rgba(118, 124, 124, 0.5) 0 2px 5px 0;
+  margin: var(--padding_4);
+}
+#featured .tour3 .img3 {
+  background-image: url("https://cinainitalia.com/wp-content/uploads/2019/02/Hong-Kong-Skyline-scaled.jpg");
+  background-size: cover;
+  grid-area: 1/1/7/5;
+  position: relative;
+}
+#featured .tour3 .date {
+  position: absolute;
+  background-color: var(--background);
+  margin-top: 15px;
+  padding: 3px 7px;
+  color: black;
+}
+#featured .tour3 h3 {
+  grid-area: 7/1/8/4;
+  margin: 10px;
+  align-self: center;
+}
+#featured .tour3 .icon {
+  grid-area: 8/1/9/3;
+  color: var(--background);
+  margin: 15px;
+}
+#featured .tour3 .icon i {
+  margin-right: 3px;
+}
+#featured .tour3 .right {
+  grid-area: 8/4/9/5;
+}
+#featured .tour3 .right p {
+  margin: 0;
+}
+#featured .tour4 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(8, 1fr);
+  height: 500px;
+  border: 1px;
+  box-shadow: rgba(118, 124, 124, 0.5) 0 2px 5px 0;
+  margin: var(--padding_4);
+}
+#featured .tour4 .img4 {
+  background-image: url("https://www.nationsonline.org/gallery/Kenya/Amboseli-National-Park-Kilimanjaro.jpg");
+  background-size: cover;
+  background-position: center;
+  grid-area: 1/1/7/5;
+  position: relative;
+}
+#featured .tour4 .date {
+  position: absolute;
+  background-color: var(--background);
+  margin-top: 15px;
+  padding: 3px 7px;
+  color: black;
+}
+#featured .tour4 h3 {
+  grid-area: 7/1/8/4;
+  margin: 10px;
+  align-self: center;
+}
+#featured .tour4 .icon {
+  grid-area: 8/1/9/3;
+  color: var(--background);
+  margin: 15px;
+}
+#featured .tour4 .icon i {
+  margin-right: 3px;
+}
+#featured .tour4 .right {
+  grid-area: 8/4/9/5;
+}
+#featured .tour4 .right p {
+  margin: 0;
+}
+#featured a {
+  margin-top: 20px;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  color: var(--background);
+  font-weight: bolder;
+}/*# sourceMappingURL=tours.css.map */

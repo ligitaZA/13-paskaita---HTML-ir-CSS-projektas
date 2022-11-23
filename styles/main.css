@@ -1,0 +1,15 @@
+/* CSS */
+@import url('https://necolas.github.io/nozzzrmalize.css/8.0.1/normalize.css');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+@import url('https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css');
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+/*  my CSS imports */
+@import url('./common/common.css');
+@import url('./header/header.css');
+@import url('./hero/hero.css');
+@import url('./aboutUs/aboutUs.css');
+@import url('./services/services.css');
+@import url('./tours/tours.css');
+@import url('./gallery/gallery.css');
+@import url('./updates/updates.css');
+@import url('./footer/footer.css');
