@@ -1,0 +1,114 @@
+#aboutUs {
+  padding: var(--padding_3);
+  height: 40vh;
+
+  .define {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: var(--padding_3);
+  }
+
+  h1 {
+    font-size: var(--font_size);
+    letter-spacing: var(--letter_space);
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  span {
+    color: var(--background);
+    margin: var(--padding_3);
+  }
+
+  .img {
+    margin: var(--padding_4);
+    background-image: url('https://images.unsplash.com/photo-1551632811-561732d1e306?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8aGlraW5nfGVufDB8fDB8fA%3D%3D&w=1000&q=80');
+    background-size: cover;
+    height: 350px;
+    width: 450px;
+  }
+
+  .content {
+    text-align: left;
+    padding: var(--padding_3);
+  }
+
+  h2 {
+    font-size: 25px;
+    padding-bottom: var(--padding_3);
+  }
+
+  p {
+    padding-bottom: var(--padding_2);
+  }
+
+  a {
+    color: var(--background);
+    font-weight: bolder;
+    letter-spacing: 0.5px;
+  }
+}
+
+@media (min-width:500px) {
+  #aboutUs {
+    padding: var(--padding_3);
+    height: 80vh;
+
+    .define {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 0 auto;
+    }
+
+    .content {
+      margin: 0 auto;
+      padding-top: 0;
+      padding: var(--padding_5);
+    }
+  }
+}
+@media (min-width:1020px){
+  #aboutUs {
+    height: 50vh;
+    .define {
+      height: 100%;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      margin: var(--padding_3);
+    }
+    .img{
+      flex: 1;
+      box-shadow: rgb(255 255 255) -27px -26px 0px 0px, var(--background) -27px -26px 0px 4px;
+      border-radius: 1px;
+      margin-right: 0;
+    }
+    .content {
+      text-align: left;
+      padding: var(--padding_4);
+      flex: 1;
+    }
+  
+    h2 {
+      font-size: 30px;
+      padding-bottom: var(--padding_4);
+    }
+  
+    p {
+      padding-bottom: var(--padding_3);
+      font-size: 15.5px;
+    }
+  
+    a {
+      color: var(--background);
+      font-weight: bolder;
+      letter-spacing: 0.5px;
+      display: inline-block;
+      margin-top: 0;
+    }
+  }
+}
+

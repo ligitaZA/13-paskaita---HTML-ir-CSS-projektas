@@ -4,8 +4,15 @@
   --padding_2: 1rem;
   --padding_3: 1.5rem;
   --padding_4: 2rem;
+  --padding_5: 3rem;
   --font_size: 30px;
   --letter_space: 2px;
+}
+html {
+  scroll-behavior: smooth;
+}
+[id]{ 
+  scroll-margin-top: 80px;
 }
 .fa, .fa-facebook{
   color: var(--background);

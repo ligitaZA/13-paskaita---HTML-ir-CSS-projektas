@@ -1,0 +1,57 @@
+#hero div {
+  height: 100vh;
+  background-color: var(--background);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+#hero h1 {
+  padding: 30px;
+  margin: 0;
+  font-size: 30px;
+  text-align: center;
+}
+#hero p {
+  padding: 30px;
+}
+#hero input {
+  background-color: var(--background);
+  border-radius: 5px;
+  padding: 5px;
+  width: 120px;
+  border: none;
+  box-shadow: rgba(45, 49, 49, 0.5) 0 2px 5px 0;
+}
+
+@media (min-width: 1020px) {
+  #hero {
+    background-image: url("https://cdn.goturkiye.com/adventure/1-trekking-hiking-desktop-kapak.jpg");
+    background-size: cover;
+    height: 90vh;
+    z-index: 0;
+    position: relative;
+  }
+  #hero div {
+    background: linear-gradient(rgba(0, 0, 255, 0.575), rgba(96, 96, 109, 0.247));
+    z-index: 1;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+  }
+  #hero div h1 {
+    font-size: 70px;
+    letter-spacing: 3px;
+    padding-bottom: 0;
+  }
+  #hero div p {
+    font-size: medium;
+    margin: 0 auto;
+  }
+  #hero div input:hover {
+    background-color: rgba(56, 56, 204, 0.842);
+    box-shadow: rgba(156, 167, 167, 0.5) 0 2px 6px 0;
+  }
+}/*# sourceMappingURL=hero.css.map */

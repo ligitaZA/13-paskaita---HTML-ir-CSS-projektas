@@ -5,11 +5,12 @@
 @import url('https://fonts.googleapis.com/icon?family=Material+Icons');
 /*  my CSS imports */
 @import url('./common/common.css');
-@import url('./header/header.css');
-@import url('./hero/hero.css');
-@import url('./aboutUs/aboutUs.css');
-@import url('./services/services.css');
-@import url('./tours/tours.css');
-@import url('./gallery/gallery.css');
-@import url('./updates/updates.css');
-@import url('./footer/footer.css');
+@import url('./1.header/header.css');
+@import url('./2.hero/hero.css');
+@import url('./3.aboutUs/aboutUs.css');
+@import url('./4.services/services.css');
+@import url('./5.tours/tours.css');
+@import url('./6.gallery/gallery.css');
+@import url('./7.updates/updates.css');
+@import url('./8.footer/footer.css');
+
